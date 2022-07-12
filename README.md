@@ -1,4 +1,6 @@
 # access-log-script
+### for start
+```php script.php access_log```
 
 На всё потребовалось 4 часа 10 минут
 
