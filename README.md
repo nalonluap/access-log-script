@@ -35,7 +35,7 @@ Access Log Script for php develop test
 {
   views: 16,
   urls: 5,
-  traffic: 187990,
+  traffic: 212816,
   crawlers: {
       Google: 2,
       Bing: 0,
