@@ -1,4 +1,7 @@
 # access-log-script
+
+На всё потребовалось 4 часа 10 минут
+
 Access Log Script for php develop test
 
 Имеется обычный http access_log файл.
