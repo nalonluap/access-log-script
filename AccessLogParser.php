@@ -27,6 +27,11 @@ class AccessLogParser {
         $this->pathToFile = $logPath;
     }
 
+    public function getLines()
+    {
+        return $this->lines;
+    }
+
     public function parseAllFile(){
         $file = fopen($this->pathToFile,'r') or die ('Не удаётся открыть указанный файл');
         while (!feof($file)) {

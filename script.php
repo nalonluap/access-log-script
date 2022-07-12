@@ -13,7 +13,9 @@ try {
     }
 
     $accessLogParser = new AccessLogParser($fileName);
+    echo $accessLogParser->getLines();
     echo json_encode($accessLogParser->parseAllFile()) . PHP_EOL;
+    echo "Lines: {$accessLogParser->getLines()}";
 } catch (Exception $exception) {
     echo "Ошибка! {$exception->getMessage()}" . PHP_EOL;
 }
